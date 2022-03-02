@@ -24,7 +24,8 @@ color: blue;
 padding: 15px;
 }
 .container {
-background: url(img/menu_yellow.png) repeat-y;
+background: url(img/menu_yellow.png) repeat-y,
+url(img/ball.png) top right repeat-y;
 }
 .menu {
 float: left;
@@ -64,7 +65,8 @@ li{
 display: inline-block;
 }
 .container{
-background: none;
+background: url(img/ball.png) bottom left repeat-x;;
+
 }
 .menu_subtittle {
 display: none;
@@ -92,6 +94,9 @@ font-size: 16px;
 @media (max-width: 400px){
 .menu, .header, .tittle {
 display: none;
+}
+.container{
+background: none;
 }
 }
 </style>
