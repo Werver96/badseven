@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+<style>
+body{
+padding: 0;
+margin: 0;
+}
+.header {}
+.tittle {
+background-color: #add8e6;
+text-align: center;
+font-size: 30px;
+text-transform: uppercase;
+color: blue;
+padding: 15px;
+}
+.container {
+background: url(img/menu_yellow.png) repeat-y;
+}
+.menu {
+float: left;
+width: 220px;
+}
+.link {}
+.baner {}
+.content {
+margin-left: 220px;
+padding: 20px;
+}
+.content__tittle {
+text-align: center;
+}
+.content__image {
+float: left;
+margin-right: 12px;
+}
+.content__text_1 {}
+.content__text_2 {}
+.tp {
+clear: both;
+}
+.footer {}
+@media (max-width: 800px){
+.menu{
+width: 100%;
+float: none;
+text-align: center;
+background-color: #f0e68c;
+padding: 20px 0 20px 0;
+}
+ul{margin: 0;
+padding: 0;}
+li{
+display: inline-block;
+}
+.container{
+background: none;
+}
+.menu_subtittle {
+display: none;
+position: absolute;
+}
+.content {
+margin: 0;
+padding-top: 0;
+}
+}
+@media (max-width: 500px){
+ul{
+margin: 0;
+padding: 0;
+}
+.content__image {
+width: 100%;
+padding-bottom: 20px;
+margin: 0;
+}
+.header {}
+.tittle {
+font-size: 16px;
+}
+}
+@media (max-width: 400px){
+.content__tittle, .menu {
+display: none;
+}
+
+
+}
+</style>
+	<div class="header tittle">ПРИВЕТ УЧАСТНИКАМ СОРЕВНОВАНИЙ!</div>
+	<div class="container">
+		<div class="menu">
+			<p class="menu_subtittle">Вид спорта:</p>
+			<ul>
+				<li class="link"><a href="https://ru.wikipedia.org/wiki/Бадминтон_на_Олимпийских_играх">Бадминтон</a></li>
+				<li class="link"><a href="https://ru.wikipedia.org/wiki/Баскетбол_на_Олимпийских_играх">Баскетбол</a></li>
+				<li class="link"><a href="https://ru.wikipedia.org/wiki/Волейбол_на_Олимпийских_играх">Волейбол</a></li>
+				<li class="link"><a href="https://ru.wikipedia.org/wiki/Футбол">Футбол</a></li>
+				<li class="link"><a href="https://ru.wikipedia.org/wiki/Велоспорт_на_Олимпийских_играх">Велоспорт</a></li>
+				<li class="link"><a href="https://ru.wikipedia.org/wiki/Прыжок_в_длину">Прыжки</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<h1 class="content__tittle">ФУТБОЛ</h1>
+			<img src="img/football.png" alt="" class="content__image">
+			<p class="content__text_1">Футбол — командный вид спорта, в котором целью является забить сяч в ворота соперника ногами или другими частями тела (кроме рук) большее количество раз, чем команда соперника.</p>
+			<p class="content__text_2">Есть 17 официальных правил игры, каждое из которых содержит список оговорок и пуководящих принципов. Эти правила предназначены для применения на всех уроовнях футбола, хотя есть некоторые изменения для таках групп, как юниоры, взрослые, женщины и люди с ограниченными физическими возможностями. Законы очень часто формулировались в общих чертах, которые позволяюст упростить их применения в зависимости от характера игры.</p>
+		</div>
+		<div class="tp"></div>
+	</div>
+	<div class="footer tittle">ГЛАВНОЕ НЕ ПОБЕДА, А УЧАСТИЕ!</div>
+</body>
+</html>
+</body>
+</html>
