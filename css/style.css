@@ -1,0 +1,106 @@
+body{
+padding: 0;
+margin: 0;
+}
+.menu_subtittle {
+padding-left: 20px;
+}
+.header {}
+.tittle {
+background-color: #add8e6;
+text-align: center;
+font-size: 30px;
+text-transform: uppercase;
+color: blue;
+padding: 15px;
+}
+.container {
+background: url(../img/menu_yellow.png) repeat-y,
+url(../img/ball.png) top right repeat-y;
+}
+.menu {
+float: left;
+width: 220px;
+}
+.link {}
+.baner {}
+.content {
+margin-left: 220px;
+padding: 20px;
+}
+.content__tittle {
+text-align: center;
+}
+.content__image {
+float: left;
+margin-right: 12px;
+padding-bottom: 20px;
+}
+.content__text_1 {}
+.content__text_2 {}
+.tp {
+clear: both;
+}
+.footer {}
+@media (max-width: 800px){
+.menu{
+width: 100%;
+float: none;
+text-align: center;
+background-color: #f0e68c;
+padding: 20px 0 20px 0;
+}
+ul{margin: 0;
+padding: 0;}
+li{
+display: inline-block;
+}
+.container{
+background: url(../img/ball.png) bottom left repeat-x;;
+
+}
+.menu_subtittle {
+display: none;
+position: absolute;
+}
+.content {
+margin: 0;
+padding-top: 0;
+}
+}
+@media (max-width: 500px){
+ul{
+margin: 0;
+padding: 0;
+}
+.content__image {
+width: 100%;
+padding-bottom: 20px;
+margin: 0;
+}
+.tittle {
+font-size: 16px;
+}
+}
+.club{
+position: fixed;
+right: 20px;
+top:20px;
+width: 100px;
+text-align: center;
+background: lime;
+border: 1px solid green;
+}
+.club a{
+font-size: 0.8em;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+padding: 5px;
+}
+@media (max-width: 400px){
+.menu, .header, .tittle {
+display: none;
+}
+.container{
+background: none;
+}
+}
